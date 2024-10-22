@@ -3,6 +3,20 @@
   "displayName": "pink-functional",
   "description": "A simple pink theme, with syntax highlighting kept as normal as possible to not hinder your DX!",
   "version": "0.0.1",
+  "publisher": "probablyjassin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/probablyjassin/pink-functional"
+  },
+  "keywords": [
+    "pink",
+    "red",
+    "cute",
+    "functional",
+    "theme",
+    "syntax",
+    "highlighting"
+  ],
   "engines": {
     "vscode": "^1.94.0"
   },
