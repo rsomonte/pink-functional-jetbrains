@@ -1,0 +1,21 @@
+{
+  "name": "pink-functional",
+  "displayName": "pink-functional",
+  "description": "A simple pink theme, with syntax highlighting kept as normal as possible to not hinder your DX!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pink Functional",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pink Functional-color-theme.json"
+      }
+    ]
+  }
+}
