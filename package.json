@@ -2,7 +2,7 @@
   "name": "pink-functional",
   "displayName": "Pink Functional",
   "description": "A simple pink theme, with syntax highlighting kept as normal as possible to not hinder your DX! Based on a theme by shoobah.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "probablyjassin",
   "repository": {
     "type": "git",

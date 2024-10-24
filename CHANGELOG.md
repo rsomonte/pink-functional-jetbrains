@@ -1,9 +1,13 @@
 # Change Log
 
-All notable changes to the "pink-functional" extension will be documented in this file.
+## [1.0.1] - 10/24/2024
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+# Added
 
-## [Unreleased]
+    - made the color for link green (`textLink.foreground` and `textLink.activeForeground`)
 
-- Initial release
+## [1.0.0] - 10/22/2024
+
+## Changed
+
+    - took "Pink As Heck" by shoobah as base but created and implemented custom token colors
