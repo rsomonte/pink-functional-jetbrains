@@ -3,6 +3,8 @@
 	"name": "Pink Functional",
 	"type": "dark",
 	"colors": {
+		"textLink.foreground": "#51ff0d",
+		"textLink.activeForeground": "#51cf59",
 		"activityBar.background": "#1a1215",
 		"activityBar.foreground": "#ff5c8d",
 		"activityBarBadge.background": "#ff5c8d",
