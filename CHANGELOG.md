@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.2] - 10/26/2024
+
+# Added
+
+    - added image to the readme
+    - added more description test to readme
+
 ## [1.0.1] - 10/24/2024
 
 # Added
