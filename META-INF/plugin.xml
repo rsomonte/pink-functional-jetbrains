@@ -1,0 +1,14 @@
+<idea-plugin>
+  <id>com.rsomonte.pinkfunctional</id>
+  <name>Pink Functional</name>
+  <version>1.0.0</version>
+  <vendor>rsomonte</vendor>
+
+  <description>A JetBrains port of the Pink Functional VS Code theme.</description>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="pink-functional" path="/themes/pink.theme.json"/>
+  </extensions>
+</idea-plugin>
