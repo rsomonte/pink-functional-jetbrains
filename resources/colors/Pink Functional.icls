@@ -1,4 +1,4 @@
-<scheme name="Pink functional-color-theme" version="1" parent_scheme="Darcula">
+<scheme name="pink-functional" version="1" parent_scheme="Darcula">
   <colors>
     <option name="GUTTER_BACKGROUND" value="2B111B" />
     <option name="SELECTION_BACKGROUND" value="88324D" />

@@ -2,7 +2,7 @@
     "name": "Pink Functional",
     "dark": true,
     "author": "rsomonte",
-    "editorScheme": "Pink functional-color-theme",
+    "editorScheme": "pink-functional",
     "colors": {
         "background": "#2b111b",
         "foreground": "#ff5c8d"
