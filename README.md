@@ -1,4 +1,4 @@
-# Pink Functional VSCode Theme
+# Pink Functional JetBrains Theme
 
 A simple pink theme, with syntax highlighting kept as normal as possible to not hinder your DX!
 
