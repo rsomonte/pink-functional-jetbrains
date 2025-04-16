@@ -1,0 +1,38 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>pink-functional</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Pink Functional</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor url="https://github.com/rsomonte/pink-functional-jetbrains"> rsomonte </vendor>
+
+    <idea-version since-build="241" until-build="243.*"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+        A simple pink theme, with syntax highlighting kept as normal as possible to not hinder your DX!
+
+        Based on <a href="https://marketplace.visualstudio.com/items?itemName=probablyjassin.pink-functional">"Pink Functional" by probablyjassin</a>, which was based on <a href="https://marketplace.visualstudio.com/items?itemName=shoobah.pinkasheck">"Pink as Heck" by shoobah</a>.
+
+        Because good token highlighting is important, I changed the theme in a way where these colors stay very familiar. Completely pink everything looks nice, but it's not usable — so this is a nice compromise!
+
+        <em>*In reality it's just a port.</em>
+    ]]></description>
+
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="pink-functional" path="/theme/pinkfunctional.theme.json"/>
+    </extensions>
+</idea-plugin>
